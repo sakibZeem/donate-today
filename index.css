@@ -53,11 +53,6 @@
     width: 500px;
 }
 
-/* section */
-/* section {
-    background-color: #f8f9fa;
-} */
-
 /* donate-today section */
 .donate-today {
     text-align: center;
@@ -154,4 +149,25 @@
 /* update section */
 .update-container{
     text-align: center;
+}
+.update-container input[type="email"]{
+    background-color: white;
+    
+}
+.form-container{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 50%;
+    margin: 30px auto;
+}
+.update-container .para-primary{
+    margin: 0 auto;
+    width: 500px;
+}
+.update-container .btn-primary{
+    margin: 0;
+    float: left;
 }
