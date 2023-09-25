@@ -16,6 +16,16 @@
     margin-bottom: 60px;
 }
 
+.tittle-primary {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.para-primary {
+    color: #6c757d;
+    font-weight: 400;
+}
 /* Header Section */
 .header-section {
     background: url(/images/donation13.jpg);
@@ -43,21 +53,14 @@
 }
 
 /* section */
+section {
+    background-color: #f8f9fa;
+}
+
 /* donate-today section */
 .donate-today {
     text-align: center;
-    margin-top: 50px;
-}
-
-.tittle-primary {
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 20px;
-}
-
-.para-primary {
-    color: #6c757d;
-    font-weight: 400;
+    padding-top: 50px;
 }
 
 .amount-container {
@@ -85,4 +88,39 @@
     padding-bottom: 5px;
     font-family: 'Kanit', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa
+}
+
+/* donate-plan */
+.donate-plan {
+    text-align: center;
+}
+
+.donate-plan-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 200px;
+}
+
+.donate-plan-content .tittle-primary {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#dp1 {
+    background-color: rgba(192, 190, 195, 0.45);
+}
+
+#dp2 {
+    background-color: rgba(214, 170, 199, 0.45);
+}
+
+#dp3 {
+    background-color: rgb(255, 246, 231);
+}
+
+.donate-plan-item {
+    padding: 60px 45px;
+    border-radius: 5px;
 }
