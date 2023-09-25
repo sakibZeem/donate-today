@@ -70,8 +70,14 @@
     background-color: #e9ecef;
     padding: 30px 24px;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 800;
     color: #6c757d;
+    border-radius: 5px;
+}
+.special{
+    border: 1px solid #ff006e;
+    color: #ff006e;
+    background-color: #ff006f3d;
 }
 
 .damount {
